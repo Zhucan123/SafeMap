@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/escape_item">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/escape_title_bg"
+            android:id="@+id/escape_title"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/escape_content"
+           android:paddingTop="5dp"
+           android:paddingLeft="15dp"
+           android:paddingRight="15dp"
+           android:textSize="12dp"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/escape_end"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
